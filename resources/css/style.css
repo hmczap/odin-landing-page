@@ -1,0 +1,17 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex: 1 auto;
+    height: 100%;
+    align-items: center;
+}
+
