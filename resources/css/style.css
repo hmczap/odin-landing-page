@@ -15,3 +15,29 @@ body{
     align-items: center;
 }
 
+
+
+/* Component Styles */
+
+button{
+    background-color: #3882F6;
+    border-radius: 5px;
+    transition: 0.1s;
+    color: white;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
+header button {
+    border: 1px solid #3882F6;
+}
+
+div.call-to-action button {
+    border: 1px solid white;
+}
+
+button:hover{
+    transition: 0.1s;
+    background: white;
+    color: #3882F6;
+}
