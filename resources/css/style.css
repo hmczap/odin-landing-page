@@ -51,25 +51,33 @@ div.outer-card-container{
     align-items: center;
     gap: 10px;
     width: 60%;
-    margin: 80px 0px;
+    margin: 50px 0px 100px 0px;
 }
 
 div.outer-card-container h3{
     font-size: 36px;
     font-weight: 900;
-    margin: 0px;
+    margin: 0px 0px 20px 0px;
     color: #1F2937;
 }
 
 div.inner-card-container{
     display: flex;
-    gap: 10px;
+    gap: 70px;
 }
 
 div.info-card {
-    width: auto;
+    width: 250px;
     font-size:18px;
     font-weight: 300;
+}
+
+div.info-card img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background: #1F2937;
 }
 
 div.testimonial{
