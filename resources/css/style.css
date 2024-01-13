@@ -20,18 +20,55 @@ body{
 header {
     width: 100%;
     display: flex;
+    padding: 0px 170px;
     flex-direction: column;
     background-color: #1F2937;
     color: #F9FAF8;
 }
 
-header h3 {
+header nav {
+    width: 100%;
+    display: flex;
+    flex: 1 auto;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav h3 {
     font-size: 24px;
+    flex-grow: 1;
+}
+
+header nav a {
+    transition: 0.1s smooth;
+}
+
+header nav a:hover {
+    transition: 0.1s smooth;
+    color: #3882F6;
+}
+
+header div.home-hero {
+    width: 100%;
+    display: flex;
+    flex: 1 auto;
+    margin: 100px 0px;
+}
+
+header div.hero-text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 auto;
+    justify-content: center;
 }
 
 header h2 {
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 0px;
 }
 
 header p, header a {
@@ -173,6 +210,7 @@ button{
 
 header button {
     border: 1px solid #3882F6;
+    align-self: flex-end;
 }
 
 div.call-to-action button {
